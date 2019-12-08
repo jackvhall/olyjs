@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <MainContainer msg="Welcome to the Olympia Frontend Development Group" />
+    <ComingSoon msg="Welcome to the Olympia Frontend Development Group" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import ComingSoon from "./components/ComingSoon.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    ComingSoon
   }
 };
 </script>
