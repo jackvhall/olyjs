@@ -15,7 +15,7 @@
           <i class="fab fa-github inline-block text-5xl text-gray-800 hover:text-gray-600 ml-4"></i>
         </a>
         <a
-          href="https://join.slack.com/t/olympiafronte-nbf1392/shared_invite/enQtODQ4NzMyNzgwODA2LWY4MzhlNzM0NjFjNTc3YzA1ZWQ4YmRjMTZmODAyYzVhMWUzMjE3MzM1MGNjZjgzZGI3ZTI1NjZhYTA3NGU2OGM"
+          href="https://join.slack.com/t/olyjs/shared_invite/enQtODkxMTQ2MTg0ODAzLTc4ZTEwOWJmOGQyODcwNmQyZmZlM2UxYjk0YjAxMDY1YTBkOWIyNzBhOTkxNDU3NjBlYmJmNmI5YjQ4OGFjZDY"
         >
           <svg
             class="-mt-4"
