@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <ComingSoon msg="Welcome to the Olympia Frontend Development Group" />
+    <UpcomingEvents />
   </div>
 </template>
 
 <script>
 import ComingSoon from "./components/ComingSoon.vue";
+import UpcomingEvents from "./components/UpcomingEvents.vue";
 
 export default {
   name: "app",
   components: {
-    ComingSoon
+    ComingSoon,
+    UpcomingEvents
   }
 };
 </script>
