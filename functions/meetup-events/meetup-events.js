@@ -22,6 +22,7 @@ exports.handler = async (event, context) => {
     const res = await fetch('https://api.meetup.com/Olympia-Front-end-Development-Meetup-Group/events', init);
     return {
         statusCode: 200,
+        headers: { 'Content-Type': 'application/json' },
         body: await res.text(),
     };
 };
