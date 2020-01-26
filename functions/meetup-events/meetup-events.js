@@ -5,13 +5,10 @@ exports.handler = async (event, context) => {
     const {
         MEETUP_KEY: key,
         MEETUP_SECRET: secret,
-        MEETUP_USER: user,
-        MEETUP_PASSWORD: password,
     } = process.env,
         redirectUri = 'https://olyjs.com';
     const authCode = await oauth.getAuthorizationCode(key, redirectUri);
-    const anonymousToken = await oauth.getAnonymousToken(key, secret, redirectUri, authCode);
-    const accessToken = await oauth.getAuthenticatedToken(user, password, anonymousToken);
+    const accessToken = await oauth.getAccessToken(key, secret, redirectUri, authCode);
 
     const init = {
         headers: {
@@ -19,10 +16,21 @@ exports.handler = async (event, context) => {
             Authorization: `Bearer ${accessToken}`,
         },
     };
-    const res = await fetch('https://api.meetup.com/Olympia-Front-end-Development-Meetup-Group/events', init);
-    return {
-        statusCode: 200,
-        headers: { 'Content-Type': 'application/json' },
-        body: await res.text(),
-    };
+
+    try {
+        const res = await fetch('https://api.meetup.com/Olympia-Front-end-Development-Meetup-Group/events', init);
+        return {
+            statusCode: 200,
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: await res.text(),
+        };
+    }
+    catch (err) {
+        console.log(err);
+        return {
+            statusCode: 500,
+        };
+    }
 };
