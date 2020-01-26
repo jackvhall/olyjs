@@ -1,9 +1,5 @@
 <template>
   <div class="container mx-auto">
-    <div>
-      <span class="text-5xl font-hairline text-gray-800">Oly</span>
-      <span class="text-5xl font-bold text-gray-800">JS</span>
-    </div>
     <div>{{ msg }}</div>
     <div class="mt-12">
       <p>While we work on this site, consider checking us out at the following:</p>
