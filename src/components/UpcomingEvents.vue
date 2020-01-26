@@ -38,8 +38,7 @@ export default {
     };
   },
   mounted() {
-    const baseURI =
-      "https://cors-anywhere.herokuapp.com/https://staging.olyjs.com/.netlify/functions/meetup-events";
+    const baseURI = "https://olyjs.com/.netlify/functions/meetup-events";
     this.$http.get(baseURI).then(result => {
       this.events = result.data;
     });
