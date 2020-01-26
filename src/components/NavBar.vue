@@ -8,11 +8,23 @@
     </a>
     <ul class="text-sm text-gray-700 list-none p-0 flex items-center">
       <li class="pr-2">
-        <a
-          href="#"
-          class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
-        >FAQs</a>
+        <a href="https://www.meetup.com/Olympia-Front-end-Development-Meetup-Group/">
+          <i class="fab fa-meetup inline-block text-3xl text-gray-800 hover:text-gray-600"></i>
+        </a>
       </li>
+      <li class="pr-2">
+        <a href="https://github.com/OlyJS">
+          <i class="fab fa-github inline-block text-3xl text-gray-800 hover:text-gray-600 mx-4"></i>
+        </a>
+      </li>
+      <li class="pr-2">
+        <a
+          href="https://join.slack.com/t/olyjs/shared_invite/enQtODkxMTQ2MTg0ODAzLTc4ZTEwOWJmOGQyODcwNmQyZmZlM2UxYjk0YjAxMDY1YTBkOWIyNzBhOTkxNDU3NjBlYmJmNmI5YjQ4OGFjZDY"
+        >
+          <i class="fab fa-slack inline-block text-3xl text-gray-800 hover:text-gray-600"></i>
+        </a>
+      </li>
+
       <li class="pl-2 border-l">
         <a
           href="#"

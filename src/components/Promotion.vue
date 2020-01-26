@@ -1,20 +1,6 @@
 <template>
   <div class="container mx-auto">
     <div class="mt-12">
-      <p>Consider checking us out at the following:</p>
-      <div class="flex justify-center align-middle mt-10">
-        <a href="https://www.meetup.com/Olympia-Front-end-Development-Meetup-Group/">
-          <i class="fab fa-meetup inline-block text-5xl text-gray-800 hover:text-gray-600"></i>
-        </a>
-        <a href="https://github.com/OlyJS">
-          <i class="fab fa-github inline-block text-5xl text-gray-800 hover:text-gray-600 mx-4"></i>
-        </a>
-        <a
-          href="https://join.slack.com/t/olyjs/shared_invite/enQtODkxMTQ2MTg0ODAzLTc4ZTEwOWJmOGQyODcwNmQyZmZlM2UxYjk0YjAxMDY1YTBkOWIyNzBhOTkxNDU3NjBlYmJmNmI5YjQ4OGFjZDY"
-        >
-          <i class="fab fa-slack inline-block text-5xl text-gray-800 hover:text-gray-600"></i>
-        </a>
-      </div>
       <div class="mt-12">
         <a
           class="py-4 px-6 border-2 border-red-600 text-xl font-thin text-white hover:text-gray-900 bg-red-600 hover:bg-white"
