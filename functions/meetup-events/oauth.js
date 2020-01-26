@@ -26,6 +26,6 @@ module.exports = {
             headers: { Accept: 'application/json' },
         };
         const res = await fetch(`https://secure.meetup.com/oauth2/access/?${params}`, init);
-        return await res.json();
+        return (await res.json()).access_token;
     },
 };
