@@ -10,7 +10,11 @@
       >
         <div class="flex items-start w-2/5">
           <div class="w-10 h-10 rounded mr-3">
-            <div class="rounded-full h-10 w-10 bg-gray-300 m-auto"></div>
+            <div class="bg-gray-300 m-auto">
+              <a href="https://www.meetup.com/Olympia-Front-end-Development-Meetup-Group/">
+                <i class="fab fa-meetup inline-block text-5xl text-red-600 hover:text-red-400"></i>
+              </a>
+            </div>
           </div>
           <div class="flex-1 overflow-hidden">
             <div>
