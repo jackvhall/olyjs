@@ -9,10 +9,11 @@ exports.handler = async (event, context) => {
         redirectUri = 'https://olyjs.com';
     const authCode = await oauth.getAuthorizationCode(key, redirectUri);
     const accessToken = await oauth.getAccessToken(key, secret, redirectUri, authCode);
+    console.log(`Authorization code: ${authCode}`);
+    console.log(`Access token: ${accessToken}`);
 
     const init = {
         headers: {
-            Accept: 'application/json',
             Authorization: `Bearer ${accessToken}`,
         },
     };
