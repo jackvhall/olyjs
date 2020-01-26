@@ -42,7 +42,7 @@ export default {
     };
   },
   mounted() {
-    const baseURI = "https://api.meetup.com/Olympia-Front-end-Development-Meetup-Group/events";
+    const baseURI = "/.netlify/functions/meetup-events";
     this.$http.get(baseURI).then(result => {
       this.events = result.data;
     });
