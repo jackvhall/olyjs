@@ -25,7 +25,7 @@
         </a>
       </li>
 
-      <li class="pl-2 border-l">
+      <!-- <li class="pl-2 border-l">
         <a
           href="#"
           class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
@@ -33,7 +33,7 @@
       </li>
       <button
         class="bg-black hover:bg-text-gray-800 border-2 border-black hover:bg-white hover:text-black text-white ml-4 py-2 px-3"
-      >Sign Up</button>
+      >Sign Up</button>-->
     </ul>
   </nav>
 </template>
