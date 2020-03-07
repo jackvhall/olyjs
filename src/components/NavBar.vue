@@ -9,19 +9,19 @@
     <ul class="text-sm text-gray-700 list-none p-0 flex items-center">
       <li class="pr-2">
         <a href="https://www.meetup.com/Olympia-Front-end-Development-Meetup-Group/">
-          <i class="fab fa-meetup inline-block text-3xl text-gray-800 hover:text-gray-600"></i>
+          <fa-icon :icon="['fab', 'meetup']" class="text-3xl text-gray-800 hover:text-gray-600" />
         </a>
       </li>
       <li class="pr-2">
         <a href="https://github.com/OlyJS">
-          <i class="fab fa-github inline-block text-3xl text-gray-800 hover:text-gray-600 mx-4"></i>
+          <fa-icon :icon="['fab', 'github']" class="inline-block text-3xl text-gray-800 hover:text-gray-600 mx-4" />
         </a>
       </li>
       <li class="pr-2">
         <a
           href="https://join.slack.com/t/olyjs/shared_invite/enQtODkxMTQ2MTg0ODAzLTc4ZTEwOWJmOGQyODcwNmQyZmZlM2UxYjk0YjAxMDY1YTBkOWIyNzBhOTkxNDU3NjBlYmJmNmI5YjQ4OGFjZDY"
         >
-          <i class="fab fa-slack inline-block text-3xl text-gray-800 hover:text-gray-600"></i>
+          <fa-icon :icon="['fab', 'slack']" class="inline-block text-3xl text-gray-800 hover:text-gray-600" />
         </a>
       </li>
 
