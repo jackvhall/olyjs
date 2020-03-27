@@ -1,13 +1,20 @@
 # olyjs
 
 ## Project setup
+First install the Netlify CLI globally (if you haven't already):
+```
+npm install -g netlify-cli
+```
+
+Next, `cd` into the your clone of the repo and install dependencies:
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
-npm run serve
+npm start
 ```
 
 ### Compiles and minifies for production
